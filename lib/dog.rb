@@ -13,7 +13,7 @@ end
 
 def self.all 
 @@all.each do |dog|
-    puts dog.object_id
+    puts dog.name
   end 
 end 
 
