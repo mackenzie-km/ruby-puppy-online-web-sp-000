@@ -3,6 +3,12 @@ class Dog
 @@all = []
 @@names = []
   
+def initialize(name = nil)
+  @name = name 
+  @@names << @name
+  @@all << self
+end 
+
 def  self.clear_all
   @@all = []
 end 
@@ -11,12 +17,6 @@ def self.all
   puts @@names
 end 
 
-require "pry" 
-def initialize(name = nil)
-  @name = name 
-  @@names << @name
-  @@all << self
-  binding.pry
-end 
+
 
 end 
