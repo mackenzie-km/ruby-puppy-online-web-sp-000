@@ -7,7 +7,7 @@ def  self.clear_all
 end 
 
 def self.all 
-  puts @@all 
+  puts @@all[@name] 
 end 
 
 def initialize(name = nil)
