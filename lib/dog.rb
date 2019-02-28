@@ -8,7 +8,7 @@ def initialize(name = nil)
 end 
 
 def  self.clear_all
-  @@all = []
+  @@all.clear
 end 
 
 def self.all 
