@@ -12,8 +12,8 @@ def  self.clear_all
 end 
 
 require "pry"
-def self.all 
   binding.pry
+def self.all 
 @@all.each do |dog|
     puts dog.name
   end
