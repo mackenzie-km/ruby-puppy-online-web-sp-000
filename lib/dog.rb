@@ -13,10 +13,11 @@ end
 
 require "pry"
 def self.all 
+  binding.pry
 @@all.each do |dog|
     puts dog.name
   end
-     binding.pry
+     
 end
 
 
