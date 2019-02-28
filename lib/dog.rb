@@ -15,8 +15,8 @@ require "pry"
 def self.all 
 @@all.each do |dog|
     puts dog.name
- 
-  end 
+  end
+     binding.pry
 end
 
 
