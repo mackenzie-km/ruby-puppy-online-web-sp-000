@@ -13,8 +13,8 @@ end
 
 def initialize(name = nil)
   @name = name 
-  @@all << self
   @@names << @name
+  @@all << self
 end 
 
 end 
