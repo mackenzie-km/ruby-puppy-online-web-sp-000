@@ -12,7 +12,7 @@ end
 
 def initialize(name = nil)
   @name = name 
-  @@all << @name
+  @@all << self
 end 
 
 end 
